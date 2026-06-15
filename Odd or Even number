@@ -1,0 +1,5 @@
+num1 = int(input("Enter your 1st number:))
+if num1 % 2 == 0
+peint("Number is even")
+else:
+print("Number is odd")
