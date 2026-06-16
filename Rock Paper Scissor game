@@ -1,0 +1,35 @@
+import random
+
+while True:
+  random_pick = random.choice(["Rock", "Paper", "Scissor"])
+
+  Player_pick = input("Enter ur choice Rock, Paper, Scissors: ")
+
+  print("Computer choice:", random_pick)
+  print("Your choice:", Player_pick)
+
+  if random_pick == Player_pick:
+     print("Try once again its a draw")
+
+  elif random_pick == "Rock" and Player_pick == "Paper":
+     print("YAY U WIN")
+
+  elif random_pick == "Paper" and Player_pick == "Scissor":
+     print("YAY U WIN")
+
+  elif random_pick == "Scissor" and Player_pick == "Rock":
+     print("YAY U WIN")
+
+  elif random_pick == "Rock" and Player_pick == "Scissor":
+     print("OHH NO U LOST")
+
+  elif random_pick == "Paper" and Player_pick == "Rock":
+     print("OHH NO U LOST")
+
+  elif random_pick == "Scissor" and Player_pick == "Paper":
+     print("OHH NO U LOST")
+
+  play_again = input("Do u want  to play again Y/N:")
+  if play_again == "N":
+     print("THANKS FOR PLAYING")
+     break
