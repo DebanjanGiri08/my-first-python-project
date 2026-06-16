@@ -1,0 +1,5 @@
+Num1 = int(input("Enter the first number:"))
+Num2 = int(input("Enter the last number:"))
+import random
+Random_number = random.randint(Num1,Num2)
+print ("The random number between these number is:", Random_number)
