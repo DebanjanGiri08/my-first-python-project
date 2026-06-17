@@ -1,0 +1,33 @@
+print("WELCOM TO THE QUIZ GAME")
+score = 0
+while True:
+  Question1 = input("What is the 3rd planet of solar system:").lower().strip()
+  Answer1 = (["Earth"])
+  if Question1 == "earth":
+    score += 1
+    print("YAY U GOT IT RIGHT NOW 2nd QUESTION")
+    break
+  else:
+    print("SORRY START AGAIN T-T")
+
+while True:
+  Question2 = input("Which planet is knowe as red planet? :").lower().strip()
+  Answer2 = (["Mars"])
+  if Question2 == "mars":
+    score += 1
+    print("YAY U GOT IT RIGHT NOW 3rd QUESTION")
+    break
+  else:
+    print("SORRY START AGAIN T-T")
+
+while True:
+  Question3 = input("Which is the closest planet to sun? :").lower().strip()
+  Answer3 = (["Mercury"])
+  if Question3 == "mercury":
+    score += 1
+    print('''YAY U GOT IT RIGHT
+          THANKS FOR PLAYING''')
+    break
+  else:
+    print("SORRY START AGAIN T-T")
+print("FINAL SCORE IS: ", score "/3")
