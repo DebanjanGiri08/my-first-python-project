@@ -1,0 +1,11 @@
+while True:
+  N1 = int(input("Enter the number whose multiplication table u want: "))
+
+  for i in range (1,11):
+    print(f"{N1} x {i} = {N1 * i}")
+
+  play_again = input("Do u want one more table? Y/N: ").upper()
+
+  if play_again == "N":
+    print("Thanks u")
+    break
