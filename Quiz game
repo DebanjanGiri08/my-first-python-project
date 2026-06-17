@@ -25,9 +25,9 @@ while True:
   Answer3 = (["Mercury"])
   if Question3 == "mercury":
     score += 1
-    print('''YAY U GOT IT RIGHT
-          THANKS FOR PLAYING''')
+    print("YAY U GOT IT RIGHT")
     break
   else:
     print("SORRY START AGAIN T-T")
-print("FINAL SCORE IS: ", score "/3")
+print(f"FINAL SCORE IS: {score} /3")
+print("THANKS FOR PLAYING <3 ")
