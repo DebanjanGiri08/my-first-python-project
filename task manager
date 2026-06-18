@@ -1,0 +1,11 @@
+Task = []
+while True:
+  User_task = input("What is ur todays task? : ")
+  Task.append(User_task)
+  print ("""Ur todays tasks are: """)
+  for task in Task:
+    print(f"-{task}")
+  more_task = input("Do u want to add more tasks Y/N: ").upper()
+  if more_task == "N":
+    print("Thank u hope u do all ur tasks")
+    break
