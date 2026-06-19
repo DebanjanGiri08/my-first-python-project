@@ -1,0 +1,28 @@
+while True:
+  Num1 = float(input("Enter ur 1st number: "))
+  Num2 = float(input("Enter the 2nd number: "))
+  operation = input("Choose an operation (+, -, *, /): ")
+
+  if operation == "+":
+    print("Addition = ", Num1 + Num2)
+
+  elif operation == "-":
+    print("Subtraction = ", Num1 - Num2)
+
+  elif operation == "*":
+    print("Multiplication = ", Num1 * Num2)
+
+  elif operation == "/":
+    if Num2 != 0:
+      print("Division = ", Num1 / Num2)
+    else:
+      print("This is invalid")
+
+  else:
+    print("Invalid operation")
+
+  again = input("Do u want to calculate again? Y/N: ").upper()
+
+  if again == "N":
+    print("Thank you for using this calculator <3")
+    break
