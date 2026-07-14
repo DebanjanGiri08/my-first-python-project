@@ -1,0 +1,8 @@
+while True:
+  Birth_year = int(input("Enter the year you are born: "))
+  age = 2026 - Birth_year
+  print("your age is: ",age)
+  again = input("do youn want to use this app again? (Y/N)")
+  if again.upper() == "N": 
+    print ("Thank You")
+break
